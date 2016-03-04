@@ -1,7 +1,7 @@
 # git for teams
 
 ## basic commands
-	
+
 	git clone _URL_
 
 download a copy of a remote repository
@@ -46,7 +46,7 @@ create a copy of a remote branch for local use
 
 switch to a different local branch
 
-	git checkout -b _branch_ _branch_parent_ 
+	git checkout -b _branch_ _branch_parent_
 
 create a new branch from a specified branch
 
@@ -94,7 +94,7 @@ shows the detailed commit message including changes for the commit fa04c30
 
 adds the tag 'import' to the commit fa04c30
 
-	git tag 
+	git tag
 
 lists all tags
 
@@ -198,35 +198,35 @@ to merge the new branch to the head of the old branch
 
 # Fugitive Git in Vim
 
-	:Git add %		:Gwrite	
+	:Git add %		:Gwrite
 
 Stage the current file to the index
-	
-	:Git checkout %	:Gread	Revert 
-	
-current file to last checked in version
-	
-	:Git rm %		:Gremove 
-	
+
+	:Git checkout %	:Gread
+
+Revert current file to last checked in version
+
+	:Git rm %		:Gremove
+
 Delete the current file and the corresponding Vim buffer
-	
+
 	:Git mv %		:Gmove
-	
+
 Rename the current file and the corresponding Vim buffer
-	
-	:Git commit %	:Gcommit 
-	
+
+	:Git commit %	:Gcommit
+
 Commits the current file with aoutocompletiion in the commit message
-	
+
 	:Git blame %	:Gblame
-	
+
 	:Gstatus
 	:Gdiff
-	
+
 # finding in Repo
 
 	git log --name-status --grep _query-string_
-	
+
 finds affected files with the query-string in commit messages
 
 # Alias
@@ -238,5 +238,5 @@ finds affected files with the query-string in commit messages
 		au = add --update
 		cv = commit
 		pr = pull --rebase
-		af = diff-tree --name-only -r 
+		af = diff-tree --name-only -r
 		find = log --pretty=\"format:%Cgreen%H %Cblue%s\" --name-status --grep
