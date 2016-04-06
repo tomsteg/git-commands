@@ -125,6 +125,15 @@ incorporate the commits currently stored in another branch into the current one
 
 remove named branch from the remote server
 
+## removing
+
+	git rm _filename_
+
+remove file from working copy and git repository
+
+	git rm --cached _filename_
+
+remove file from git repository, but not from the file system
 
 ## rollbacks, reverts, resets and rebasing
 
