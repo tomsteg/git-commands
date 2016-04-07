@@ -26,6 +26,10 @@ review a repository's history
 
 lists history of commits and each commit message is listed on one line
 
+	git log -- <filename>
+
+lists the history of one file
+
 	git branch --list
 
 list all local branches
