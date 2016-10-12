@@ -209,6 +209,12 @@ to go back to a certain commit and use that commit for a basis for a new branch
 
 to merge the new branch to the head of the old branch
 
+# big
+
+if you want the default branch to be something other than master, you need to do this:
+
+	git symbolic-ref HEAD refs/heads/mybranch
+
 # Fugitive Git in Vim
 
 	:Git add %		:Gwrite
