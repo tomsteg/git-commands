@@ -209,7 +209,13 @@ to go back to a certain commit and use that commit for a basis for a new branch
 
 to merge the new branch to the head of the old branch
 
-# big
+## cherry picking
+
+	git checkout <branch_name> -- <paths>
+
+to checkout file(s) from an other branch to the actual branch
+
+## big
 
 if you want the default branch to be something other than master, you need to do this:
 
