@@ -215,6 +215,24 @@ to merge the new branch to the head of the old branch
 
 to checkout file(s) from an other branch to the actual branch
 
+# git flow
+
+	git flow init
+
+to initialize git-flow in an existing git repository
+
+	git flow feature
+
+to list all features
+
+	git flow feature start -F _feature_name_
+
+to start a new feature (= branch from develop branch) and -F fetch from origin before local operation
+
+	git flow feature finish -F _feature_name_
+
+to finish a feature (= merge feature branch into develop branch) and -F fetch from origin before, -k = keep branch
+
 ## big
 
 if you want the default branch to be something other than master, you need to do this:
