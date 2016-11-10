@@ -129,6 +129,10 @@ incorporate the commits currently stored in another branch into the current one
 
 remove named branch from the remote server
 
+	git standup
+
+shows what you have done today
+
 ## removing
 
 	git rm _filename_
