@@ -219,6 +219,16 @@ to merge the new branch to the head of the old branch
 
 to checkout file(s) from an other branch to the actual branch
 
+# stash
+
+	git stash
+
+stashing uncommitted work to go on with it later
+
+	git stash pop
+
+pick up stashed work to go on with it
+
 # git flow
 
 	git flow init
