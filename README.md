@@ -1,1 +1,1 @@
-This repository conains notes to useful git commands and configurations.
+This repository contains notes to often used git commands and configurations.
